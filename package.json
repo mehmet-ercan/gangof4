@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "marp_index": "marp index.md -w --html --allow-local-files",
+    "marp_observer": "marp src/main/java/com/app/gangof4/student/observerP/observer_presentation.md -w --html --allow-local-files"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}
