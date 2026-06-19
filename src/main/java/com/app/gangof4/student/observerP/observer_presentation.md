@@ -64,7 +64,8 @@ h5 {
 
 - Observer: interface with update() method.
 
-[//]: # (ConcreteSubject: stores state and notifies observers on change.)
+- ConcreteSubject: stores state and notifies observers on change.
+
 - ConcreteObserver: reacts to updates, keeps a reference to Subject if needed.
 
 ---
@@ -141,4 +142,14 @@ h5 {
 - u ..
 - e .
 - s
-- .
+- ..
+
+---
+
+# Questions :question:
+
+- (Subject ile ConcreteSubject arasındaki fark nedir?)
+- (ConcreteSubject hangi sınıftır?)
+- (ConcreteObserver hangi sınıftır?)
+- (Bu pattern neden loose coupling sağlar?)
+- (Observer sayısı artarsa ne olur?)
